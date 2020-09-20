@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Mind Palace"
-theme = "Book"
+theme = "book"
 BookTheme = "dark"
 enableEmoji = "true"
