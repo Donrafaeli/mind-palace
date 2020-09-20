@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://donrafaeli.gitlab.io/mind-palace/"
 languageCode = "en-us"
 title = "Mind Palace"
 theme = "book"
