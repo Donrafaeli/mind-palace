@@ -5,8 +5,7 @@ type: docs
 
 # Mind Palace
 
-An attempt to centralize my thoughts and interests; to relate the seemingly unrelated.  
-This is intended to clear and organize thought patterns and recombine them in interesting ways.
+An attempt to centralize my thoughts and interests; to relate the seemingly unrelated. The intent is to clear and organize thought patterns and recombine them in interesting ways.
 
 ## Proclamation
 
@@ -31,3 +30,4 @@ From these goals, general areas of interest form:
 {{< hint info >}}
 This is currently WIP and it may not make sense.
 {{< /hint >}}
+
