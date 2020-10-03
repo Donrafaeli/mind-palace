@@ -3,3 +3,7 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+:root {
+    @include theme-light;
+  }
+  
