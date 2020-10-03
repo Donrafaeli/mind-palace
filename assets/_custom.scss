@@ -3,7 +3,9 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
-:root {
-    @include theme-light;
-  }
-  
+
+// text overrides
+h1, h2{
+font-size: 2rem;
+font-weight: 700;
+}
