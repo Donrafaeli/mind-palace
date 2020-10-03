@@ -1,41 +1,33 @@
 ---
-title: Introduction
+title: Mind Palace
 type: docs
 ---
 
-# Acerbo datus maxime
+# Mind Palace
 
-{{< columns >}}
-## Astris ipse furtiva
+An attempt to centralize my thoughts and interests; to relate the seemingly unrelated. The intent is to clear and organize thought patterns and recombine them in interesting ways.
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+## Proclamation
 
-<--->
+The intended use for my :european_castle: Mind Palace is thus:
 
-## Suis quot vota
++ Develop my writing [ writing = thinking ]
++ Put some restless mind patterns on calm paper
++ Discover new facets of my personality
++ Come to peace with psychological trauma by mulching it through writing
++ Seek out novel ways to kick myself in the nuts out of a rut and into living life
++ Hone some philosophical ideas about life that are quietly brewing
++ Figure out what's halting my personal developement and devise growth tactics
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+From these goals, general areas of interest form:
 
+## Themes
 
-## Tempora nisi nunc
+## 1. Doing something
+## 1. Exploring my psyche
+## 1. Self-building  
+&nbsp;
+{{< hint info >}}
+This is currently WIP and it may not make sense.
+{{< /hint >}}
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
