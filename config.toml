@@ -4,3 +4,4 @@ title = "Mind Palace"
 theme = "book"
 BookTheme = "dark"
 enableEmoji = "true"
+BookMenuBundle = '/menu'

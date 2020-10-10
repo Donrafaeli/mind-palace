@@ -2,10 +2,9 @@
 headless: true
 ---
 
-- [**Example Site**]({{< relref "/content/_index" >}})
-- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
-  - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
-  - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
+- [Life]({{< relref "/docs/life/" >}})
+  - [Control]({{< relref "/docs/life/control/" >}})
+  - [Do-something]({{< relref "/docs/life/do-something/" >}})
 - [Collapsed]({{< relref "/docs/example/collapsed" >}})
   - [3rd]({{< relref "/docs/example/collapsed/3rd-level" >}})
     - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})

@@ -96,7 +96,9 @@ ul.pagination {
 }
 
 .book-menu {
+  color: var(--headline-font-color);
   flex: 0 0 $menu-width;
+  padding: 30px;
   font-size: $font-size-14;
 
   nav {

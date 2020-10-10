@@ -23,9 +23,9 @@ From these goals, general areas of interest form:
 
 ## Themes
 
-## 1. Doing something
-## 1. Exploring my psyche
-## 1. Self-building  
+## 1. Life
+## 1. Philosophy
+## 1. Autopsychiatry
 &nbsp;
 {{< hint info >}}
 This is currently WIP and it may not make sense.

@@ -43,5 +43,5 @@ So okay, basic facts about the world are good to know and not knowing them is pa
 
 But, even before putting my mind probe in this other gumbo, I know that the reality of truth is probably more similar to our current physics model of classical and quantum states. That is to say, if you look at the big picture, one answer is apparent, whereas if you look at the interpersonal level and inside the brain, things start getting less certain and more probabilistic - you discover that if you zoom into a white issue, it's actually made out of a whole grey spectrum array.  
 
-This is similar to the problem of measuring the diameter of objects - the finer scale you use to measure, the more the measurement approaches infinity (how hard did I just bullshit here?)
+This is similar to the Coastline paradox or Gabriel's horn type problem - the finer scale you use to measure, the more the measurement approaches infinity. Maybe a weird analogy, will have to check if this makes sense.
 
