@@ -4,7 +4,7 @@
 
 ### Todo  
 
-Buy HDD - 356 GBish, preferrably m.2 with a SATA adapter, for future proofing 
+Buy HDD - 256 GBish, preferrably m.2 with a SATA adapter, for future proofing 
 
 Check processor - possibly upgrade with 3rd gen low power xeon from njuškalo  
 
@@ -12,7 +12,7 @@ Check proc cooler clearance and available space, then put the biggest quietest o
 
 Check if cooling is doable just with the beefy proc cooler for airflow - it should be since there are no other heat critical components    
 
-  
+If PSU is loud, replace PSU fan with a quieter one - Noctua A9 if i dont mind the overhang, or A8 if it goes in the PSU case.
 
 CPU cooler choices:  
 
@@ -22,7 +22,7 @@ https://www.uzishop.hr/hladnjaci-za-cpu/52191-scythe-mugen-5-revb-scmg-5100-4571
 
 ### Done
 
-Case, PSU, RAM (upgrade to 2x8 soon), Mobo (probs bottleneck)
+Case, PSU(fan?), RAM (upgrade to 2x8 soon), Mobo (probs bottleneck)
 
 
 
@@ -44,5 +44,5 @@ Monitoring - Netdata
 
 ### Todo  
 
-Setup Dynamic DNS - find the best provider  
+Setup Dynamic DNS - https://nextdns.io/ or maybe duckdns
 

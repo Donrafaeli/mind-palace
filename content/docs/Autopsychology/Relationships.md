@@ -2,7 +2,7 @@
 
 Ohhh boyo, here we go.  
   
-  Well, this whole project basically began as a way for me to process my still very fresh breakup. So as you may imagine, there is ground to tread here and we will tread it intuitively - pulling themes and **my emotions** like threads, tugging on each one and seeing what unravels. As you might assume, I will mostly be doing the unraveling, but also the unraveling. Dive with me.  
+  Well, this whole project basically began as a way for me to process my still very fresh breakup. So as you may imagine, there is ground to tread here and we will tread it intuitively - pulling themes and **my emotions** like threads, tugging on each one and seeing what unravels. As you might assume, I will be the unreveler and the unraveled. Dive with me.  
     
 I have a possibly controversial opinion about relationships. It's more of a feeling than an opinion, lying sort of unrealized and unthought through.  
 0m not too familiar with the literature regarding love and attachement. I've dabbled in attachement theory and I feel it rings true. It's one of those depressing truths though, as it seems mostly crystallized in youth.    

@@ -1,3 +1,11 @@
+## 12.10. 23:00
+
+Ne da mi se o Sari. I da mi se u isto vrijeme. Dopisujemo se, linkovi simo tamo. Kava je odgođena dok ne ozdravi. Ne znam što točno izvlačim iz ovoga. Nešto izvlačim. Kao da jedan dio mene misli da je getting back together realna i moguća opcija. Kao da ta mogućnost raste u meni. Al to nemre bit opcija. Imao sam kvalitetni heng sa Romanom u subotu. Baš ono qualitat. Samo nas dva, totalno random, 6 pivi, 2 pljuge i priča. Malo sam razložio to što se događa. I pričao sam o vezi kak je tekla i kakve smo probleme imali. Znam da je ovo hindsight, ali jebote koji blind spot. Onak na sred vidnog polja blindspot. Žena se ohladi i onda se zbedira jer joj je valjda bed mene kak sam ja super i kak bi sve trebalo biti super, onda ode u totalno neresponzivno stanje, onda kad meni dopizdi i puknem, onda kaže da se ohladila, ja kažem ok jebiga ak tak feelaš i onda za dan dva pričamo i sve je super i opet se volimo. I tako više manje u krug doslovno godinama (jel faking moguće da je godinama?). I ja ju i dalje volim na neku foru. Mislim ne volim više nju, nje nema dobrih pola godine. Volim njenu internalizaciju idealnu. I tu smo di jesmo. Malo sam izmožden za ovo. Morao sam danas u foto šetnju sa tri cigarete smotane da se sčilam. Nadam se da ću biti pametan.
+
+
+
+
+
 ## 7.10. 20:41
 
 

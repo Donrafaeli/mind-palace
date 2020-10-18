@@ -4,6 +4,7 @@ title: Pragmatism vs Buddhism
 type: docs
 ---
 
+
 # Pragmatism vs Buddhism
 
 Religions and philosophical traditions seem to me like distributed computers trying to calculate the answer to the question of **How to live a better life.**
