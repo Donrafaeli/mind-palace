@@ -5,3 +5,7 @@ theme = "book"
 BookTheme = "dark"
 enableEmoji = "true"
 BookMenuBundle = '/menu'
+RelativeURLs = "true"
+CanonifyURLs = "true"
+[markup.goldmark.renderer]
+unsafe= true

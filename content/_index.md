@@ -5,7 +5,8 @@ type: docs
 
 # Mind Palace
 
-An attempt to centralize my thoughts and interests; to relate the seemingly unrelated. The intent is to clear and organize thought patterns and recombine them in interesting ways.
+Less online garden and more excuse for a full stack web development project.
+An attempt to clear and organize thought patterns and recombine them in interesting ways.
 
 ## Proclamation
 
@@ -29,5 +30,8 @@ From these goals, general areas of interest form:
 &nbsp;
 {{< hint info >}}
 This is currently WIP and it may not make sense.
-{{< /hint >}}
+{{< /hint >}}  
 
+{{% expand `Click me!` %}} Hidden content {{% /expand %}}
+
+test {{% fontawesome ankh %}}test
