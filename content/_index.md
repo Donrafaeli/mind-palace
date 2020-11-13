@@ -5,12 +5,12 @@ type: docs
 
 # Mind Palace
 
-Less online garden and more excuse for a full stack web development project.
-An attempt to clear and organize thought patterns and recombine them in interesting ways.
+Less a digital garden then an excuse for a full stack web development project.
+An attempt to clear and organize thought patterns and recombine them in interesting ways. A wiki for myself.
 
 ## Proclamation
 
-The intended use for my :european_castle: Mind Palace is thus:
+The intended use for :european_castle: Mind Palace is thus:
 
 + Develop my writing [ writing = thinking ]
 + Put some restless mind patterns on calm paper
@@ -32,6 +32,6 @@ From these goals, general areas of interest form:
 This is currently WIP and it may not make sense.
 {{< /hint >}}  
 
-{{% expand `Click me!` %}} Hidden content {{% /expand %}}
+{{% expand `Click me!` %}} Hidden contentasd ds sa as sd a dsd {{% /expand %}}
 
 test {{% fontawesome ankh %}}test

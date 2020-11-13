@@ -1,11 +1,11 @@
-baseURL = "https://donrafaeli.gitlab.io/mind-palace/"
+baseURL = "https://mindpalace.xyz"
 languageCode = "en-us"
 title = "Mind Palace"
 theme = "book"
 BookTheme = "dark"
 enableEmoji = "true"
 BookMenuBundle = '/menu'
-RelativeURLs = "true"
-CanonifyURLs = "true"
+RelativeURLs = "false"
+CanonifyURLs = "false"
 [markup.goldmark.renderer]
 unsafe= true

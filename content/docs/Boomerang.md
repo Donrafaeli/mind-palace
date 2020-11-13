@@ -52,4 +52,4 @@ The above may all sound grandiose, but in essence it's a playful process of ente
 
 
 
-[1]: I am, of course aware that when I recognise some general pattern, it is equally a reflection of the external world state and my **filter**, but as far as I know, the fact that being subjective is as much a part of being human as being wet is a part of water. So a core presupposition that I make is that there is no getting around the filter, only cleaning and examining it. 
+[^1]: I am, of course aware that when I recognise some general pattern, it is equally a reflection of the external world state and my **filter**, but as far as I know, the fact that being subjective is as much a part of being human as being wet is a part of water. So a core presupposition that I make is that there is no getting around the filter, only cleaning and examining it. 

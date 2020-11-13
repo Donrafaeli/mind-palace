@@ -1,7 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <div class="expand">
-    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? 'fa fontawesome ankh' : 'fa fontawesome ankh';});});">
-        <i style="font-size:x-small;" class="fa fontawesome ankh"></i>
+    <div class="expand-label" style="cursor: pointer;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? });});">
+        <i style="font-size:x-small;"></i>
         <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
