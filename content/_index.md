@@ -5,8 +5,9 @@ type: docs
 
 # Mind Palace
 
-Less a digital garden then an excuse for a full stack web development project.
-An attempt to clear and organize thought patterns and recombine them in interesting ways. A wiki for myself.
+Less digital garden more excuse for a full stack web development project.
+An attempt to clear and organize thought patterns and recombine them in interesting ways.  
+A navel-gazing wiki.
 
 ## Proclamation
 
@@ -17,21 +18,12 @@ The intended use for :european_castle: Mind Palace is thus:
 + Discover new facets of my personality
 + Come to peace with psychological trauma by mulching it through writing
 + Seek out novel ways to kick myself in the nuts out of a rut and into living life
-+ Hone some philosophical ideas about life that are quietly brewing
-+ Figure out what's halting my personal developement and devise growth tactics
++ Figure out what's halting my personal developement and devise growth tactics  
 
-From these goals, general areas of interest form:
+  
 
-## Themes
-
-## 1. Life
-## 1. Philosophy
-## 1. Autopsychiatry
-&nbsp;
 {{< hint info >}}
-This is currently WIP and it may not make sense.
+Currently, the scaffolds are up, and all the thoughts expressed here are in nascency. I expect at least 50 man hours before it looks and reads presentably. So if you somehow managed to stumble upon this - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
 {{< /hint >}}  
 
-{{% expand `Click me!` %}} Hidden contentasd ds sa as sd a dsd {{% /expand %}}
-
-test {{% fontawesome ankh %}}test
+{{% expand `This should expand with more info, WIP` %}} Hidden contentasd ds sa as sd a dsd {{% /expand %}}

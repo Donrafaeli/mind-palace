@@ -1,6 +1,7 @@
 ---
 id: Boomerang
 title: Boomerang ideas
+weight: 6
 ---
 
 # Boomerang ideas
