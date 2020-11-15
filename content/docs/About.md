@@ -4,7 +4,7 @@ title: About
 weight: 9999
 ---
 ## About  
-This is a static site, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far has been way more than rewarding.
+This is a static site, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far it has been way more than rewarding.
 
 ## Making
 

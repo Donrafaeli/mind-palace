@@ -6,7 +6,7 @@
 
   // remove padding at the beginning of page
   > :first-child {
-    margin-top: 1.6rem;
+    margin-top: $padding-16;
   }
 
   h1,
@@ -18,7 +18,7 @@
     font-weight: 700;
     color:var(--headline-font-color);
     line-height: 1;
-    margin-top: 1.5em;
+    margin-top: $padding-16;
     margin-bottom: $padding-16;
 
     a.anchor {
@@ -191,3 +191,25 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: $mobile-breakpoint-max) {
+ 
+  h1{
+    font-size: 2em 
+  }
+
+  .markdown {
+    // remove padding at the beginning of page
+    > :first-child {
+      margin-top: 0;
+    }}
+  }
+
+  @media screen and (min-width: $mobile-breakpoint) {
+    .book-page,
+    .book-menu nav,
+    .book-toc nav {
+      padding: $padding-16 * 2 $padding-16;
+    }
+  }
+  

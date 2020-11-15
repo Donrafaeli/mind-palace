@@ -1,7 +1,7 @@
 ---
 menu:
   after:
-    name: blog
+    name: Thought bites
     weight: 5
-title: Blog
+title: Thought bites
 ---

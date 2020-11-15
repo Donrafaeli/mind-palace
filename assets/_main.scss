@@ -314,6 +314,15 @@ aside nav,
   #toc-control {
     display: inline;
   }
+  h1{
+    font-size: 1.5em;
+  }
+
+  .markdown {
+    // remove padding at the beginning of page
+    > :first-child {
+      margin-top: 0;
+    }}
 
   .book-menu {
     visibility: hidden;
