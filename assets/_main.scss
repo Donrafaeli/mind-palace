@@ -1,5 +1,5 @@
 html {
-  font-size: $font-size-base;
+  font-size: $font-size-18;
   scroll-behavior: smooth;
   touch-action: manipulation;
 }
@@ -99,7 +99,7 @@ ul.pagination {
   color: var(--headline-font-color);
   flex: 0 0 $menu-width;
   padding: 30px;
-  font-size: $font-size-14;
+  font-size: $font-size-16;
 
   nav {
     width: $menu-width;
@@ -327,7 +327,7 @@ aside nav,
   .book-menu {
     visibility: hidden;
     margin-inline-start: -$menu-width;
-    font-size: $font-size-base;
+    font-size: 1.5rem;
     z-index: 1;
   }
 
