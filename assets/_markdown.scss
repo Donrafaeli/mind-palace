@@ -1,14 +1,21 @@
 @import "variables";
 
 .markdown {
-  line-height: 1.6;
-  padding: 40px;
+  line-height: 1.55;
+  padding: $padding-40;
+
+
 
   // remove padding at the beginning of page
   > :first-child {
-    margin-top: $padding-16;
+    margin-top: $padding-8;
   }
 
+  p{
+    margin-top: 0 ;
+    margin-bottom: 1.7rem;
+   }
+   
   h1,
   h2,
   h3,
@@ -18,8 +25,7 @@
     font-weight: 700;
     color:var(--headline-font-color);
     line-height: 1;
-    margin-top: $padding-16;
-    margin-bottom: $padding-16;
+    margin-bottom: $padding-20;
 
     a.anchor {
       opacity: 0;
@@ -129,9 +135,21 @@
   }
 
   ul,
-  ol {
-    padding-inline-start: $padding-16 * 2;
+  ol,
+  li {
+    padding-inline-start: $padding-8;
+    margin-bottom: 0.2rem !important;
   }
+  ul>p,
+  ol>p,
+  li>p {
+    margin-bottom: 0.2rem !important;
+  }
+
+ li::marker {
+  color: var(--raf-green);
+  font-size: 0.8rem;
+}
 
   dl {
     dt {
@@ -199,10 +217,9 @@
   }
 
   .markdown {
-    // remove padding at the beginning of page
-    > :first-child {
-      margin-top: 0;
-    }}
+  max-width: 90vw;
+  
+  }
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
@@ -210,6 +227,11 @@
     .book-menu nav,
     .book-toc nav {
       padding: $padding-16 * 2 $padding-16;
+    }
+    .markdown {
+    min-width: 45vw; 
+    max-width: 50vw;
+    
     }
   }
   
