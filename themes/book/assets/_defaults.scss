@@ -28,7 +28,7 @@ $hint-colors: (
   danger: #f66,
 ) !default;
 
-// Themes
+//Themes
 @mixin theme-light {
   --gray-100: #f8f9fa;
   --gray-200: #e9ecef;
@@ -55,7 +55,7 @@ $hint-colors: (
   --color-link: #84b2ff;
   --color-visited-link: #b88dff;
 
-  --body-background: #343a40;
+  --body-background: #4d9b79;
   --body-font-color: #e9ecef;
 
   --icon-filter: brightness(0) invert(1);
