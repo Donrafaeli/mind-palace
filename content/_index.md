@@ -4,7 +4,7 @@ type: docs
 BookToC: false
 ---
 
->Currently, the scaffolds are up, and all the thoughts expressed here are in nascency. I expect at least 50 man hours before it looks and reads presentably. So if you somehow managed to stumble upon this - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
+>Currently, the scaffolds are up, and all the thoughts expressed here are in nascency. I expect at least 49 more productive hours before it looks and reads presentably. So if you somehow managed to stumble upon this - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
 
 
 # Mind Palace
