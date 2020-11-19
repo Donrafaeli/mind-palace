@@ -4,7 +4,7 @@ type: docs
 BookToC: false
 ---
 
->Currently, the scaffolds are up, and all the thoughts expressed here are in nascency. I expect at least 49 more productive hours before it looks and reads presentably. So if you somehow managed to stumble upon this - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
+>Currently, the scaffolds are up, and the syntax and semantics are under construction. I expect at least 48 more productive hours before it looks and reads coherently. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
 
 
 # Mind Palace
