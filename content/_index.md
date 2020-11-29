@@ -2,6 +2,7 @@
 title: Mind Palace
 type: docs
 BookToC: false
+include_jquery: true
 ---
 
 >Currently, the scaffolds are up, and the syntax and semantics are under construction. I expect at least 48 more productive hours before it looks and reads coherently. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
@@ -27,4 +28,6 @@ The intended use for :european_castle: Mind Palace is thus:
   
 
 
-{{% expand `This should expand with more info, WIP` %}} Hidden contentasd ds sa as sd a dsd {{% /expand %}}
+{{< expand "Is this learn theme rocks ?" >}}
+Yes !.
+{{< /expand >}}

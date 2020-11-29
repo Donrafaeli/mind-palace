@@ -218,19 +218,13 @@
   }
 
   .markdown {
-  max-width: 90vw;
+  max-width: 50vw;
   
   }
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
-    .book-page,
-    .book-menu nav,
-    .book-toc nav {
-      padding: $padding-16 * 2 $padding-16;
-    }
     .markdown {
-    min-width: 45vw; 
     max-width: 50vw;
     
     }
