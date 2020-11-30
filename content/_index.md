@@ -2,7 +2,7 @@
 title: Mind Palace
 type: docs
 BookToC: false
-include_jquery: true
+include_jquery: true    
 ---
 
 >Currently, the scaffolds are up, and the syntax and semantics are under construction. I expect at least 48 more productive hours before it looks and reads coherently. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.

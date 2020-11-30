@@ -5,8 +5,8 @@ weight: 99
 ---
 # Todo
 
-+ make the expand shortcode work
-+ figure out what's up with loinks to the js library - how to load them properly in a local environment
++ fix fontawesome icons in the expand shortcode
++ fix incorrect MIME type error for FA library (possibly related to above)
 + fix footonte symbol and text colors to fit dark theme
 + implement images and see how they fit with the dark theme - small border?
 + set caching policy and the rest of the good stuff
@@ -21,6 +21,8 @@ weight: 99
 
 
 # Done
++ figure out what's up with loinks to the js library - how to load them properly in a local environment
++ make the expand shortcode work
 + see if that IPV6 tunnel is actually necessary (probably not)
 + see why www. does not redirect properly 
 + purge the server of unneccesary scripts and packages related to dynamic dns
