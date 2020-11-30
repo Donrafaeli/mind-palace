@@ -1,6 +1,7 @@
 ---
 id: About
 title: About
+BookToC: false
 weight: 9999
 ---
 ## About  
