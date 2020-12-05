@@ -5,13 +5,13 @@ BookToC: false
 include_jquery: true    
 ---
 
->Currently, the scaffolds are up, and the syntax and semantics are under construction. I expect at least 48 more productive hours before it looks and reads coherently. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
+>Currently, the scaffolds are up, and the syntax and semantics are under construction. I expect at least 45 more productive hours before it looks and reads coherently. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shot me an email if you have any thoughts.
 
 
 # Mind Palace
 
 Less digital garden more excuse for a full stack web development project.
-An attempt to clear and organize thought patterns and recombine them in interesting ways.  
+An attempt to organize thought patterns and recombine them in interesting ways.  
 A navel-gazing wiki.
 
 ## Proclamation
@@ -28,6 +28,9 @@ The intended use for :european_castle: Mind Palace is thus:
   
 
 
-{{< expand "Is this learn theme rocks ?" >}}
-Yes !.
+{{< expand "Is this?" "fas fa-bars" "fas fa-ban" >}}
+Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.
+A navel-gazing wiki.Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.
+A navel-gazing wiki.Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.
+A navel-gazing wiki.
 {{< /expand >}}
