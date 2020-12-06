@@ -28,7 +28,7 @@ The intended use for :european_castle: Mind Palace is thus:
   
 
 
-{{< expand "Is this?" "fas fa-bars" "fas fa-ban" >}}
+{{< expand "Is this" >}}
 Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.
 A navel-gazing wiki.Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.
 A navel-gazing wiki.Less digital garden more excuse for a full stack web development project. An attempt to organize thought patterns and recombine them in interesting ways.

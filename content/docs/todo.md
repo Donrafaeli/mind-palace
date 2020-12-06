@@ -9,7 +9,7 @@ weight: 99
 
 + fix the expand shortcode not switching between open and closed icons
 + turn "thought bites" into short diary style idea entries
-  + + find a way to set minimum visible post length, or disable it completely
++ find a way to set minimum visible post length, or disable it completely
 + fix footonte symbol and text colors to fit dark theme
 + implement images and see how they fit with the dark theme - small border?
 
@@ -25,6 +25,7 @@ weight: 99
 
 ## Done
 
++ fix mobile layout of body text
 + fix fontawesome icons in the expand shortcode
 + fix incorrect MIME type error for FA library (possibly related to above)
 + figure out what's up with loinks to the js library - how to load them properly in a local environment

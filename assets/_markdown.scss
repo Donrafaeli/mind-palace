@@ -100,7 +100,6 @@
     background-color: #293037;
     border-inline-start: $padding-6 solid var(--raf-green);
     border-radius: $border-radius;
-    color: var(--raf-visited);
 
     :first-child {
       margin-top: 0;
@@ -211,22 +210,17 @@
   }
 }
 
-@media screen and (max-width: $mobile-breakpoint-max) {
+@media screen and (max-width: $mobile-breakpoint) {
  
   h1{
     font-size: 2em 
-  }
+    }
+}
 
-  .markdown {
-  max-width: 50vw;
-  
-  }
-  }
-
-  @media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $mobile-breakpoint) {
     .markdown {
     max-width: 50vw;
     
     }
-  }
+}
   
