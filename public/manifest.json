@@ -1,15 +1,15 @@
 {
   "name": "Mind Palace",
   "short_name": "Mind Palace",
-  "start_url": "/mind-palace/",
-  "scope": "/mind-palace/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/static/favicon.svg",
-      "sizes": "32x32"
+      "src": "/favicon.svg",
+      "sizes": "512x512"
     }
   ]
 }

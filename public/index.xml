@@ -2,48 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mind Palace</title>
-    <link>https://donrafaeli.gitlab.io/mind-palace/</link>
+    <link>https://mindpalace.xyz/</link>
     <description>Recent content on Mind Palace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://donrafaeli.gitlab.io/mind-palace/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mindpalace.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boomerang ideas</title>
+      <link>https://mindpalace.xyz/docs/philosophy/boomerang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/philosophy/boomerang/</guid>
+      <description>Boomerang ideas#are, as you would think, ideas that you constantly return to, more accurately that return to you.
+For me, it&amp;rsquo;s just common patterns that reappear in my thoughts, often general in nature. As a heuristic, I use that reappearance to mean that my pattern recognition is noticing something interesting, and that they are therefore useful to think about. 1
+I use thinking time to mull over the ideas and see if they make sense intrinsically.</description>
+    </item>
+    
     <item>
       <title>Creating a New Theme</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/posts/creating-a-new-theme/</link>
+      <link>https://mindpalace.xyz/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/posts/creating-a-new-theme/</guid>
+      <guid>https://mindpalace.xyz/posts/creating-a-new-theme/</guid>
       <description>Introduction#This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/posts/migrate-from-jekyll/</link>
+      <link>https://mindpalace.xyz/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/posts/migrate-from-jekyll/</guid>
+      <guid>https://mindpalace.xyz/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static#Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
-▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>https://mindpalace.xyz/docs/todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/todo/</guid>
+      <description>Todo#Blocking# fix the expand shortcode not switching between open and closed icons find a way to set minimum visible post length, or disable it completely fix footonte symbol and text colors to fit dark theme implement images and see how they fit with the dark theme - small border? - caddy?  Iteration# see if serving fonts from a CDN is better is auto-linting md files a thing?</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mindpalace.xyz/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/about/</guid>
+      <description>About#This is a static site, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far, the experience has been like trying to make a hole in the wall using your forehead and actually succeeding. Feels pretty amazing in the end, but it makes my head hurt in the process.
+Making#Everything you see here is markdown written in VSCode and Typora, built by Hugo.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/posts/goisforlovers/</link>
+      <link>https://mindpalace.xyz/posts/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/posts/goisforlovers/</guid>
+      <guid>https://mindpalace.xyz/posts/goisforlovers/</guid>
       <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/posts/hugoisforlovers/</link>
+      <link>https://mindpalace.xyz/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/posts/hugoisforlovers/</guid>
+      <guid>https://mindpalace.xyz/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo#Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -53,161 +83,129 @@ Follow the following steps:</description>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/diary-basically/</link>
+      <link>https://mindpalace.xyz/docs/life/how-to/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/diary-basically/</guid>
-      <description>Pjesma mora biti loša Ne nikad nisam pisao Riječi dobre ili ikakve Ali nemoj mi zamjeriti
-Loše mjesto u glavi Loša nadanja Jebeni sadboy mood opet
-Pjesma mora biti loša Ne smiješ postojati Izbaci, ispovraćaj, istisni Je li ovo stvarno nutrina Boli tabane Lomi rane
-Stisni me i prođi Još uvijek me voliš Moj ruksak u bijelim trapkama Nosim te na sebi Natrag u rupu toplu i vlažnu Zašto mi nije čudno Ne mogu te tražiti Više po livadamanakon 6 godina</description>
+      <guid>https://mindpalace.xyz/docs/life/how-to/</guid>
+      <description>How to live a good life: Rafael edition#</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/buttons/</link>
+      <link>https://mindpalace.xyz/docs/life/relationships/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/buttons/</guid>
-      <description>Buttons#Buttons are styled links that can lead to local page or external link.
-Example#{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}} {{&amp;lt; button href=&amp;#34;https://github.com/alex-shpak/hugo-book&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}} Get HomeContribute</description>
+      <guid>https://mindpalace.xyz/docs/life/relationships/</guid>
+      <description>Relationships#Ohhh boyo, here we go.
+Well, this whole project basically began as a way for me to process my still very fresh breakup. So as you may imagine, there is ground to tread here and we will tread it intuitively - pulling themes and my emotions like threads, tugging on each one and seeing what unravels. As you might assume, I will be the unreveler and the unraveled.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/columns/</link>
+      <link>https://mindpalace.xyz/docs/local/autopsychology/diary-basically/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/columns/</guid>
-      <description>Columns#Columns help organize shorter pieces of content horizontally for readability.
-{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Mid Content Lorem markdownum insigne... &amp;lt;---&amp;gt; &amp;lt;!-- magic separator, between columns --&amp;gt; # Right Content Lorem markdownum insigne... {{&amp;lt; /columns &amp;gt;}} Example#Left Content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!</description>
+      <guid>https://mindpalace.xyz/docs/local/autopsychology/diary-basically/</guid>
+      <description>8.11.29. 00:09#Samo mi se piše malo. Doslovno zbog samog čina pisanja. Kao da je to inherentno dobro. Verbalna dijareja koja kao pridonosi nečemu.
+//
+Ne znam isplati li se
+pisati kada si prazan
+može li se voda napiti tebe?
+riječi ući u tvoje prste
+zgrabiti za vrat i tresti.
+Ima li smisla gurati kada nemaš što gurnuti?
+Nepozvana
+20.10.20. 00:25#Bili smo na pivi. Bilo je začudno ugodno.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/details/</link>
+      <link>https://mindpalace.xyz/docs/local/kantica/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/details/</guid>
-      <description>Details#Details shortcode is a helper for details html5 element. It is going to replace expand shortcode.
-Example#{{&amp;lt; details &amp;#34;Title&amp;#34; [open] &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} {{&amp;lt; details title=&amp;#34;Title&amp;#34; open=true &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /details &amp;gt;}} TitleMarkdown content Lorem markdownum insigne&amp;hellip;</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/index/</guid>
+      <description>Server#My little server is called &amp;ldquo;Kantica&amp;rdquo; - it means &amp;ldquo;little bucket&amp;rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Backups#Backups are done locally, using Timeshift.
+Use this to make a new snapshot
+sudo timeshift --createUse this to list all snapshots
+sudo timeshift --listUse this to restore a snapshot</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/expand/</link>
+      <link>https://mindpalace.xyz/docs/local/kantica/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/expand/</guid>
-      <description>Expand#Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
-Example#Default#{{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}} Expand↕Markdown content Lorem markdownum insigne&amp;hellip;With Custom Label#{{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne.</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/misc/</guid>
+      <description>Server setup#Hardware#Todo#Buy HDD - 256 GBish, preferrably m.2 with a SATA adapter, for future proofing
+Check processor - possibly upgrade with 3rd gen low power xeon from njuškalo
+Check proc cooler clearance and available space, then put the biggest quietest one in with a huge pwm fan
+Check if cooling is doable just with the beefy proc cooler for airflow - it should be since there are no other heat critical components</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/hints/</link>
+      <link>https://mindpalace.xyz/docs/local/kantica/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/hints/</guid>
-      <description>Hints#Hint shortcode can be used as hint/alerts/notification block.
-There are 3 colors to choose: info, warning and danger.
-{{&amp;lt; hint [info|warning|danger] &amp;gt;}} **Markdown content** Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa {{&amp;lt; /hint &amp;gt;}} Example#Markdown content
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus TelethusaMarkdown content</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/server/</guid>
+      <description>Server#My little server is called &amp;ldquo;Kantica&amp;rdquo; - it means &amp;ldquo;little bucket&amp;rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+TODO#Get css working on local nginx server
+wait for mail reply from ISP to see what&amp;rsquo;s up with the router firmware.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Use SSH to access the server
+ssh kantica@srce.duckdns.org -p 4241the private key that is used to authenticate this is located in C:\Users\Rafael\.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/katex/</link>
+      <link>https://mindpalace.xyz/docs/local/misc/ines-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/katex/</guid>
-      <description>KaTeX#KaTeX shortcode let you render math typesetting in markdown document. See KaTeX
-Example#{{&amp;lt; katex [display] [class=&amp;#34;text-center&amp;#34;] &amp;gt;}} f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&amp;lt; /katex &amp;gt;}} Display Mode Example#Here is some inline example: \(\pi(x)\), rendered in the same line. And below is display example, having display: block \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]Text continues here.</description>
+      <guid>https://mindpalace.xyz/docs/local/misc/ines-web/</guid>
+      <description>Ines web#Todo#SVE
+Trenutni game je Publii - lokalni CMS sa WYSIWYG editorom koji bi se mogao spojiti sa FTP sa kanticom ili drugim serverom i pushati gore izmjene. sleek
+Payment opcije -
+https://snipcart.com/pricing
+https://www.ecwid.com/pricing
+shopify duh</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/mermaid/</link>
+      <link>https://mindpalace.xyz/docs/philosophy/filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/mermaid/</guid>
-      <description>Mermaid Chart#Mermaid is library for generating svg charts and diagrams from text.
-Example#{{&amp;lt; mermaid [class=&amp;#34;text-center&amp;#34;]&amp;gt;}} sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}} </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page1/</guid>
-      <description>Page 1#</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page2/</guid>
-      <description>Page 2#</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/tabs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/tabs/</guid>
-      <description>Tabs#Tabs let you organize content by context, for example installation instructions for each supported platform.
-{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}} {{&amp;lt; tab &amp;#34;MacOS&amp;#34; &amp;gt;}} # MacOS Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}} # Linux Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}} # Windows Content {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabs &amp;gt;}} Example#MacOSMacOS This is tab MacOS content.
-Lorem markdownum insigne. Olympo signis Delphis!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/untitled/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Boomerang ideas</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/themes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/themes/</guid>
-      <description>Boomerang ideas#are, as you would think, ideas that you constantly return to, more accurately that return to you.
-For me, it&amp;rsquo;s just common patterns that reappear in my thoughts, often general in nature. As a heuristic, I use that reappearance to mean that my pattern recognition is noticing something interesting, and that they are therefore useful to think about. [^1]
-I use thinking time to mull over the ideas and see if they make sense intrinsically.</description>
+      <guid>https://mindpalace.xyz/docs/philosophy/filter/</guid>
+      <description>The Filter#The objective world doesn&amp;rsquo;t exist. At least not as far as humans are concerned. After all, objectivity is an Ideal - a goal set beyond reach so that we may proverbially shoot for the stars and land on the moon.
+That does not mean that it is useless to aim for objectivity - quite the opposite. It just means that we have to stay open minded and doubtful, always.</description>
     </item>
     
     <item>
       <title>Control and letting go</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/life/control/</link>
+      <link>https://mindpalace.xyz/docs/life/control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/life/control/</guid>
+      <guid>https://mindpalace.xyz/docs/life/control/</guid>
       <description>Control and letting go#</description>
     </item>
     
     <item>
       <title>Do something</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/life/do-something/</link>
+      <link>https://mindpalace.xyz/docs/life/do-something/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/life/do-something/</guid>
+      <guid>https://mindpalace.xyz/docs/life/do-something/</guid>
       <description>Do something#</description>
     </item>
     
     <item>
       <title>Pragmatism vs Buddhism</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/buddhism/</link>
+      <link>https://mindpalace.xyz/docs/philosophy/buddhism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/buddhism/</guid>
+      <guid>https://mindpalace.xyz/docs/philosophy/buddhism/</guid>
       <description>Pragmatism vs Buddhism#Religions and philosophical traditions seem to me like distributed computers trying to calculate the answer to the question of How to live a better life.
 Myself being interested in that subject, I often tackle its various facets with thinking tools - mental models picked up and culled throughout the years of mutual evolutionary combat.
 Desire and freedom#One of the thought-lines i often come back to is something I got from Alan Watts&#39; &amp;ldquo;The Wisdom of Insecurity&amp;rdquo;.</description>
@@ -215,26 +213,12 @@ Desire and freedom#One of the thought-lines i often come back to is something
     
     <item>
       <title>Truth</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/truth/</link>
+      <link>https://mindpalace.xyz/docs/philosophy/truth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/truth/</guid>
+      <guid>https://mindpalace.xyz/docs/philosophy/truth/</guid>
       <description>Truth#Honestly, I can&amp;rsquo;t fucking believe I&amp;rsquo;m even attempting to write this.
-When drilling into deep ideas, most of my thought processes after a while usually hit bedrock. How do I know anything is True, and if something is, how to conceptualize Truth to be most in line with thinking and acting in the world?
-Questions such as:
-  How do I live a good life?
-  How do I know if I&amp;rsquo;m using the same word as someone else for the same thing?</description>
-    </item>
-    
-    <item>
-      <title>Writing Style</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/wri1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/wri1/</guid>
-      <description>Writing Style#One of my interests, that relates particularily to this venture, is writing clearly.
-I have not done much work in this area, and I&amp;rsquo;m prepared for my attempts to sound ridiculous, but I feel I have a good starting point.
-Since it&amp;rsquo;s one of my common themes, I think about it often, ironically rarely putting anything to paper. One of my cristallization moments came from watching a talk by Steven Pinker titled Linguistics, Style and Writing in the 21st Century.</description>
+When drilling into deep ideas, most of my thought processes after a while usually hit bedrock. How do I know anything is True? How am I to think about ideas and communicate those thoughts if I don&amp;rsquo;t have a solid reference point. It seems like this is a subset of the question of how do I know if anything is real?</description>
     </item>
     
   </channel>

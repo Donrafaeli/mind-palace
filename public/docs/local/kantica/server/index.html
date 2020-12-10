@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Server#My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+TODO#Get css working on local nginx server
+wait for mail reply from ISP to see what&rsquo;s up with the router firmware.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Use SSH to access the server
+ssh kantica@srce.duckdns.org -p 4241the private key that is used to authenticate this is located in C:\Users\Rafael\.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Server#My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+TODO#Get css working on local nginx server
+wait for mail reply from ISP to see what&rsquo;s up with the router firmware.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Use SSH to access the server
+ssh kantica@srce.duckdns.org -p 4241the private key that is used to authenticate this is located in C:\Users\Rafael\." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mindpalace.xyz/docs/local/kantica/server/" />
+
+<title>Server | Mind Palace</title>
+<link rel="manifest" href="https://mindpalace.xyz/manifest.json">
+<link rel="icon" href="https://mindpalace.xyz/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://mindpalace.xyz/book.min.419b1d48d6606314537a2f66474127c0134407787fee538e96cf7069062e4b7a.css" integrity="sha256-QZsdSNZgYxRTei9mR0EnwBNEB3h/7lOOls9waQYuS3o=">
+<script defer src="https://mindpalace.xyz/en.search.min.72cfe54bbae6ed6cddff18cd1eadd5184ae78399aea39144c8f4b86906d9bc44.js" integrity="sha256-cs/lS7rm7Wzd/xjNHq3VGErng5muo5FEyPS4aQbZvEQ="></script>
+<!--
+Made with Hugo - custom theme based on Alex Shpak's Book theme.
+-->
+
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="https://mindpalace.xyz/"><span>Mind Palace</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1001ad9308b47a8d70ef4919fa96bde6" class="toggle"  />
+    <label for="section-1001ad9308b47a8d70ef4919fa96bde6" class="flex justify-between">
+      <a  class="">Life</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/how-to/" class="">How To</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/relationships/" class="">Relationships</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/control/" class="">Control and letting go</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/do-something/" class="">Do something</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5600a5abffd997d98055ae57ccaa113c" class="toggle"  />
+    <label for="section-5600a5abffd997d98055ae57ccaa113c" class="flex justify-between">
+      <a  class="">Philosophy</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/boomerang/" class="">Boomerang ideas</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/filter/" class="">Filter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/buddhism/" class="">Pragmatism vs Buddhism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/truth/" class="">Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/todo/" class="">Todo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/index/" class="">Index</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/misc/" class="">Misc</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/server/" class=" active">Server</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/misc/ines-web/" class="">Ines Web</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://mindpalace.xyz/posts/" >
+        Thought bites
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://mindpalace.xyz/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Server</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://mindpalace.xyz/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#todo">TODO</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#backups">Backups</a></li>
+    <li><a href="#heading"></a></li>
+    <li><a href="#realtime-data">Realtime data</a></li>
+    <li><a href="#sleep">Sleep</a></li>
+    <li><a href="#startup">Startup</a></li>
+    <li><a href="#sweet-sitnicas-for-the-end">Sweet sitnicas for the end</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="server">
+  Server
+  <a class="anchor" href="#server">#</a>
+</h1>
+<p>My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.</p>
+<h2 id="todo">
+  TODO
+  <a class="anchor" href="#todo">#</a>
+</h2>
+<p>Get css working on local nginx server</p>
+<p>wait for mail reply from ISP to see what&rsquo;s up with the router firmware.</p>
+<p><img src="C:%5cHugo%5cSites%5cmind-palace%5cstatic%5cimg%5cKantica.PNG" alt="" /></p>
+<p>This nice looking preview is from <a href="https://github.com/KittyKatt/screenFetch">Screenfetch</a>, a favourite of the linux ricing community.</p>
+<p>Use SSH to access the server</p>
+<pre><code>ssh kantica@srce.duckdns.org -p 4241
+</code></pre><p>the private key that is used to authenticate this is located in C:\Users\Rafael\.ssh</p>
+<p>#General</p>
+<p>Download a file</p>
+<pre><code>curl –o filename URL
+</code></pre><p>Shutdown</p>
+<pre><code>sudo poweroff
+</code></pre><p>Reboot</p>
+<pre><code>sudo reboot
+</code></pre><p>Who would have thunk?</p>
+<p>See all active ports</p>
+<pre><code> sudo netstat -tulpn | grep LISTEN
+</code></pre><h2 id="packages">
+  Packages
+  <a class="anchor" href="#packages">#</a>
+</h2>
+<p>Packages are found <a href="https://packages.ubuntu.com/">Here</a>.</p>
+<p>Packages are manipulated with <strong>A</strong>dvanced <strong>P</strong>ackage <strong>T</strong>ool, the main CLI package manager for Debian and its derivatives.</p>
+<p>Install using this command</p>
+<pre><code>sudo apt install [package name]
+</code></pre><p>Remove using this command</p>
+<pre><code>sudo apt remove [package name]
+</code></pre><p>View all installed packages like so</p>
+<pre><code>apt list --installed
+</code></pre><p>Occasionally, update all packages using this command</p>
+<pre><code>sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade
+</code></pre><p>get update downloads the latest list of packages and their versions, while dist-upgrade updates (fucking language, right?) all outdated packages intelligently.</p>
+<p>And remove unneccesary ones</p>
+<pre><code>sudo apt autoremove
+</code></pre><h2 id="backups">
+  Backups
+  <a class="anchor" href="#backups">#</a>
+</h2>
+<p>Backups are done locally, using <a href="https://github.com/teejee2008/timeshift">Timeshift</a>.</p>
+<p>Use this to make a new snapshot¸¸</p>
+<pre><code>sudo timeshift --create
+</code></pre><p>Use this to list all snapshots</p>
+<pre><code>sudo timeshift --list
+</code></pre><p>Use this to restore a snapshot</p>
+<pre><code>timeshift --restore --snapshot &quot;2020-02-19_18-32-36&quot;
+</code></pre><h2 id="heading">
+  
+  <a class="anchor" href="#heading">#</a>
+</h2>
+<h2 id="realtime-data">
+  Realtime data
+  <a class="anchor" href="#realtime-data">#</a>
+</h2>
+<p>The server&rsquo;s performance data is collected using <a href="https://github.com/netdata/netdata">Netdata</a>.</p>
+<p>The data can be viewed on the local network on the address <a href="http://192.168.5.20:19999">IP:1999</a> or on the netdata cloud from anywhere.</p>
+<p>Temperature integration is WIP, so currently check temps with</p>
+<pre><code>sudo watch -n 1 sensors
+</code></pre><p>Netdata can also send notifications for various critical states. Setting this up is WIP, currently being blocked by setting up a web domain on the server. Since sendmail can&rsquo;t send emails from an internal server, it needs to connect to a webserver, something about setting A dns records, which I can&rsquo;t easily do as my website is being held hostage.</p>
+<h2 id="sleep">
+  Sleep
+  <a class="anchor" href="#sleep">#</a>
+</h2>
+<p>A sleep function for the server is WIP. It should wake the server up whenever there is a hit on the webpage, <a href="https://ubuntuforums.org/showthread.php?t=2045541">like described here</a>.</p>
+<p>Update: This seems to require a router with OpenWrt firmware. Since I do not have that, the next line of inquiry would be setting up an arduino or teensy to act as a listener and wake up the server once traffic is recieved on the URL.</p>
+<p>Another possibility is setting up the router to</p>
+<h2 id="startup">
+  Startup
+  <a class="anchor" href="#startup">#</a>
+</h2>
+<p>Related to the sleep function, this is a simple way of checking how long the last boot up took.</p>
+<pre><code>systemd-analyze
+</code></pre><p>This shows which processes take up what amount of boot time.</p>
+<pre><code> systemd-analyze blame
+</code></pre><p>This disables a process</p>
+<pre><code>sudo systemctl disable NetworkManager-wait-online.service
+</code></pre><p>While this reverts the change</p>
+<pre><code>sudo systemctl enable NetworkManager-wait-online.service
+</code></pre><p>Be reaaaaaaaaly careful with this.</p>
+<h2 id="sweet-sitnicas-for-the-end">
+  Sweet sitnicas for the end
+  <a class="anchor" href="#sweet-sitnicas-for-the-end">#</a>
+</h2>
+<p>If you ever freak out about high RAM use - <a href="https://www.linuxatemyram.com/">https://www.linuxatemyram.com/</a></p>
+<h1 id="minecraft">
+  Minecraft
+  <a class="anchor" href="#minecraft">#</a>
+</h1>
+<p>Currently, the server operates as a small minecraft server.</p>
+<p>It uses a series of scripts called MSM to start, stop, manage backups and more.  <a href="https://msmhq.com/docs/commands/">Look for MSM&rsquo;s commands on this link</a></p>
+<p>The path to the server is</p>
+<pre><code>cd /opt/msm/servers/biome51/
+</code></pre><p><a href="https://github.com/gekigek99/minecraft-server-hibernation">It uses a Go script to hibernate while it&rsquo;s not in use.</a></p>
+<p>To start the script do:</p>
+<pre><code>cd /biome51/minecraft-server-hibernation/go-script ;
+screen go run minecraft-server-hibernation.go 
+</code></pre><p>then CTRL+A then d to detach the screen session and leave it running in the background. &ldquo;screen -r&rdquo; to enter, or reattach to the running session.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#todo">TODO</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#backups">Backups</a></li>
+    <li><a href="#heading"></a></li>
+    <li><a href="#realtime-data">Realtime data</a></li>
+    <li><a href="#sleep">Sleep</a></li>
+    <li><a href="#startup">Startup</a></li>
+    <li><a href="#sweet-sitnicas-for-the-end">Sweet sitnicas for the end</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  <script
+  src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+  type="application/javascript"
+></script>
+<script type="application/javascript">
+littlefoot.default({buttonTemplate: "<button aria-controls='fncontent:<% id %>' aria-expanded='false' aria-label='Footnote <% number %>' class='littlefoot-footnote__button' id='<% reference %>' rel='footnote' title='See Footnote <% number %>' /><% number %></button>"
+}) 
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,3 +9,4 @@ RelativeURLs = "false"
 CanonifyURLs = "true"
 [markup.goldmark.renderer]
 unsafe= true
+exclude = "./README.md"

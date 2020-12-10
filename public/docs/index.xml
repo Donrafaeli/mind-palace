@@ -2,73 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Mind Palace</title>
-    <link>https://donrafaeli.gitlab.io/mind-palace/docs/</link>
+    <link>https://mindpalace.xyz/docs/</link>
     <description>Recent content in Docs on Mind Palace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://donrafaeli.gitlab.io/mind-palace/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://mindpalace.xyz/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todo</title>
+      <link>https://mindpalace.xyz/docs/todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/todo/</guid>
+      <description>Todo#Blocking# fix the expand shortcode not switching between open and closed icons find a way to set minimum visible post length, or disable it completely fix footonte symbol and text colors to fit dark theme implement images and see how they fit with the dark theme - small border? - caddy?  Iteration# see if serving fonts from a CDN is better is auto-linting md files a thing?</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mindpalace.xyz/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/about/</guid>
+      <description>About#This is a static site, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far, the experience has been like trying to make a hole in the wall using your forehead and actually succeeding. Feels pretty amazing in the end, but it makes my head hurt in the process.
+Making#Everything you see here is markdown written in VSCode and Typora, built by Hugo.</description>
+    </item>
+    
     <item>
       <title></title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/diary-basically/</link>
+      <link>https://mindpalace.xyz/docs/local/kantica/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/diary-basically/</guid>
-      <description>Pjesma mora biti loša Ne nikad nisam pisao Riječi dobre ili ikakve Ali nemoj mi zamjeriti
-Loše mjesto u glavi Loša nadanja Jebeni sadboy mood opet
-Pjesma mora biti loša Ne smiješ postojati Izbaci, ispovraćaj, istisni Je li ovo stvarno nutrina Boli tabane Lomi rane
-Stisni me i prođi Još uvijek me voliš Moj ruksak u bijelim trapkama Nosim te na sebi Natrag u rupu toplu i vlažnu Zašto mi nije čudno Ne mogu te tražiti Više po livadamanakon 6 godina</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/index/</guid>
+      <description>Server#My little server is called &amp;ldquo;Kantica&amp;rdquo; - it means &amp;ldquo;little bucket&amp;rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Backups#Backups are done locally, using Timeshift.
+Use this to make a new snapshot
+sudo timeshift --createUse this to list all snapshots
+sudo timeshift --listUse this to restore a snapshot</description>
     </item>
     
     <item>
-      <title>Boomerang ideas</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/themes/</link>
+      <title></title>
+      <link>https://mindpalace.xyz/docs/local/kantica/misc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/themes/</guid>
-      <description>Boomerang ideas#are, as you would think, ideas that you constantly return to, more accurately that return to you.
-For me, it&amp;rsquo;s just common patterns that reappear in my thoughts, often general in nature. As a heuristic, I use that reappearance to mean that my pattern recognition is noticing something interesting, and that they are therefore useful to think about. [^1]
-I use thinking time to mull over the ideas and see if they make sense intrinsically.</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/misc/</guid>
+      <description>Server setup#Hardware#Todo#Buy HDD - 256 GBish, preferrably m.2 with a SATA adapter, for future proofing
+Check processor - possibly upgrade with 3rd gen low power xeon from njuškalo
+Check proc cooler clearance and available space, then put the biggest quietest one in with a huge pwm fan
+Check if cooling is doable just with the beefy proc cooler for airflow - it should be since there are no other heat critical components</description>
     </item>
     
     <item>
-      <title>Control and letting go</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/life/control/</link>
+      <title></title>
+      <link>https://mindpalace.xyz/docs/local/kantica/server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/life/control/</guid>
-      <description>Control and letting go#</description>
+      <guid>https://mindpalace.xyz/docs/local/kantica/server/</guid>
+      <description>Server#My little server is called &amp;ldquo;Kantica&amp;rdquo; - it means &amp;ldquo;little bucket&amp;rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+TODO#Get css working on local nginx server
+wait for mail reply from ISP to see what&amp;rsquo;s up with the router firmware.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Use SSH to access the server
+ssh kantica@srce.duckdns.org -p 4241the private key that is used to authenticate this is located in C:\Users\Rafael\.</description>
     </item>
     
     <item>
-      <title>Do something</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/life/do-something/</link>
+      <title></title>
+      <link>https://mindpalace.xyz/docs/local/misc/ines-web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/life/do-something/</guid>
-      <description>Do something#</description>
-    </item>
-    
-    <item>
-      <title>Pragmatism vs Buddhism</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/buddhism/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/buddhism/</guid>
-      <description>Pragmatism vs Buddhism#Religions and philosophical traditions seem to me like distributed computers trying to calculate the answer to the question of How to live a better life.
-Myself being interested in that subject, I often tackle its various facets with thinking tools - mental models picked up and culled throughout the years of mutual evolutionary combat.
-Desire and freedom#One of the thought-lines i often come back to is something I got from Alan Watts&#39; &amp;ldquo;The Wisdom of Insecurity&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Truth</title>
-      <link>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/truth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/truth/</guid>
-      <description>Truth#Honestly, I can&amp;rsquo;t fucking believe I&amp;rsquo;m even attempting to write this.
-When drilling into deep ideas, most of my thought processes after a while usually hit bedrock. How do I know anything is True, and if something is, how to conceptualize Truth to be most in line with thinking and acting in the world?
-Questions such as:
-  How do I live a good life?
-  How do I know if I&amp;rsquo;m using the same word as someone else for the same thing?</description>
+      <guid>https://mindpalace.xyz/docs/local/misc/ines-web/</guid>
+      <description>Ines web#Todo#SVE
+Trenutni game je Publii - lokalni CMS sa WYSIWYG editorom koji bi se mogao spojiti sa FTP sa kanticom ili drugim serverom i pushati gore izmjene. sleek
+Payment opcije -
+https://snipcart.com/pricing
+https://www.ecwid.com/pricing
+shopify duh</description>
     </item>
     
   </channel>

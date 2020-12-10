@@ -6,6 +6,7 @@
 
 
 
+
   // remove padding at the beginning of page
   > :first-child {
     margin-top: $padding-8;
@@ -14,6 +15,10 @@
   p{
     margin-top: 0 ;
     margin-bottom: 1.7rem;
+    orphans: 2 !important;
+   }
+   p:blank{
+    margin-bottom: 0 !important;
    }
    
   h1,
@@ -132,6 +137,7 @@
     height: $padding-1;
     border: none;
     background: var(--gray-200);
+    margin: $padding-16 0 $padding-16 0;
   }
 
   ul,
@@ -145,7 +151,9 @@
   li>p {
     margin-bottom: 0.2rem !important;
   }
-
+ li:last-child {
+   margin-bottom: 1.6rem !important;
+ }
  li::marker {
   color: var(--raf-green);
   font-size: 0.8rem;
@@ -179,7 +187,10 @@
     padding: $padding-16;
     border: $padding-1 solid var(--gray-200);
     border-radius: $border-radius;
-
+    outline-style: none !important;
+    :focus{
+      outline-style: none !important; 
+     }
     summary {
       line-height: 1;
       padding: $padding-16;
@@ -205,10 +216,13 @@
   > :first-child {
     margin-top: 0;
   }
+
   > :last-child {
     margin-bottom: 0;
   }
+
 }
+
 
 @media screen and (max-width: $mobile-breakpoint) {
  

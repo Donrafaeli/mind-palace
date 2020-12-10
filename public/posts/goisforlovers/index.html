@@ -10,21 +10,23 @@ This document is a brief primer on using Go templates.">
 <meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://donrafaeli.gitlab.io/mind-palace/posts/goisforlovers/" />
+<meta property="og:url" content="https://mindpalace.xyz/posts/goisforlovers/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
 <title>(Hu)go Template Primer | Mind Palace</title>
-<link rel="manifest" href="/mind-palace/manifest.json">
-<link rel="icon" href="/mind-palace/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/mind-palace/book.min.df48cfd98d66d3c7f38e564883a4adef5a71e448ce2e38f9621b67dcf926d513.css" integrity="sha256-30jP2Y1m08fzjlZIg6St71px5EjOLjj5Yhtn3Pkm1RM=">
-<script defer src="/mind-palace/en.search.min.c9826d47dfd35d263478d02c30c7bb52cc7fce70bc37dbb4e31b768bc2812c6d.js" integrity="sha256-yYJtR9/TXSY0eNAsMMe7Usx/znC8N9u04xt2i8KBLG0="></script>
+<link rel="manifest" href="https://mindpalace.xyz/manifest.json">
+<link rel="icon" href="https://mindpalace.xyz/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://mindpalace.xyz/book.min.419b1d48d6606314537a2f66474127c0134407787fee538e96cf7069062e4b7a.css" integrity="sha256-QZsdSNZgYxRTei9mR0EnwBNEB3h/7lOOls9waQYuS3o=">
+<script defer src="https://mindpalace.xyz/en.search.min.72cfe54bbae6ed6cddff18cd1eadd5184ae78399aea39144c8f4b86906d9bc44.js" integrity="sha256-cs/lS7rm7Wzd/xjNHq3VGErng5muo5FEyPS4aQbZvEQ="></script>
 <!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
+Made with Hugo - custom theme based on Alex Shpak's Book theme.
 -->
 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet"> 
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
 </head>
 
 <body dir=>
@@ -35,7 +37,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav>
 <h2 class="book-brand">
-  <a href="/mind-palace"><span>Mind Palace</span>
+  <a href="https://mindpalace.xyz/"><span>Mind Palace</span>
   </a>
 </h2>
 
@@ -70,126 +72,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/diary-basically/" class="">Diary Basically</a>
-  
-
-        </li>
-      
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <span>Shortcodes</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/buttons/" class="">Buttons</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/columns/" class="">Columns</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/details/" class="">Details</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/expand/" class="">Expand</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/hints/" class="">Hints</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/katex/" class="">Katex</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/mermaid/" class="">Mermaid</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
-    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
-      <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/" class="">Section</a>
+    <input type="checkbox" id="section-1001ad9308b47a8d70ef4919fa96bde6" class="toggle"  />
+    <label for="section-1001ad9308b47a8d70ef4919fa96bde6" class="flex justify-between">
+      <a  class="">Life</a>
       <span>▾</span>
     </label>
   
@@ -204,7 +89,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page1/" class="">Page1</a>
+    <a href="https://mindpalace.xyz/docs/life/how-to/" class="">How To</a>
   
 
         </li>
@@ -217,7 +102,33 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/section/page2/" class="">Page2</a>
+    <a href="https://mindpalace.xyz/docs/life/relationships/" class="">Relationships</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/control/" class="">Control and letting go</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/do-something/" class="">Do something</a>
   
 
         </li>
@@ -235,7 +146,24 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/tabs/" class="">Tabs</a>
+    <input type="checkbox" id="section-5600a5abffd997d98055ae57ccaa113c" class="toggle"  />
+    <label for="section-5600a5abffd997d98055ae57ccaa113c" class="flex justify-between">
+      <a  class="">Philosophy</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/boomerang/" class="">Boomerang ideas</a>
   
 
         </li>
@@ -248,7 +176,33 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/shortcodes/wri1/" class="">Writing Style</a>
+    <a href="https://mindpalace.xyz/docs/philosophy/filter/" class="">Filter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/buddhism/" class="">Pragmatism vs Buddhism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/truth/" class="">Truth</a>
   
 
         </li>
@@ -266,7 +220,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/themes/" class="">Boomerang ideas</a>
+    <a href="https://mindpalace.xyz/docs/todo/" class="">Todo</a>
   
 
         </li>
@@ -279,7 +233,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/life/control/" class="">Control and letting go</a>
+    <a href="https://mindpalace.xyz/docs/about/" class="">About</a>
   
 
         </li>
@@ -292,7 +246,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/life/do-something/" class="">Do something</a>
+    <a href="https://mindpalace.xyz/docs/local/kantica/index/" class="">Index</a>
   
 
         </li>
@@ -305,7 +259,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/buddhism/" class="">Pragmatism vs Buddhism</a>
+    <a href="https://mindpalace.xyz/docs/local/kantica/misc/" class="">Misc</a>
   
 
         </li>
@@ -318,7 +272,20 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://donrafaeli.gitlab.io/mind-palace/docs/philosophy/truth/" class="">Truth</a>
+    <a href="https://mindpalace.xyz/docs/local/kantica/server/" class="">Server</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/misc/ines-web/" class="">Ines Web</a>
   
 
         </li>
@@ -340,8 +307,8 @@ https://github.com/alex-shpak/hugo-book
 <ul>
   
   <li>
-    <a href="/mind-palace/posts/" >
-        Blog
+    <a href="https://mindpalace.xyz/posts/" >
+        Thought bites
       </a>
   </li>
   
@@ -368,18 +335,21 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/mind-palace/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="https://mindpalace.xyz/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <strong>(Hu)go Template Primer</strong>
 
   <label for="toc-control">
     
-    <img src="/mind-palace/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="https://mindpalace.xyz/svg/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
 
   
   <aside class="hidden clearfix">
@@ -417,7 +387,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/mind-palace/posts/goisforlovers/">(Hu)go Template Primer</a>
+    <a href="https://mindpalace.xyz/posts/goisforlovers/">(Hu)go Template Primer</a>
   </h1>
   
   <h5>April 2, 2014</h5>
@@ -427,19 +397,19 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/mind-palace/categories/development/">Development</a>, 
-      <a href="/mind-palace/categories/golang/">golang</a>
+      <a href="https://mindpalace.xyz/categories/development/">Development</a>, 
+      <a href="https://mindpalace.xyz/categories/golang/">golang</a>
   </div>
   
 
   
   <div>
     
-      <a href="/mind-palace/tags/go/">go</a>, 
-      <a href="/mind-palace/tags/golang/">golang</a>, 
-      <a href="/mind-palace/tags/templates/">templates</a>, 
-      <a href="/mind-palace/tags/themes/">themes</a>, 
-      <a href="/mind-palace/tags/development/">development</a>
+      <a href="https://mindpalace.xyz/tags/go/">go</a>, 
+      <a href="https://mindpalace.xyz/tags/golang/">golang</a>, 
+      <a href="https://mindpalace.xyz/tags/templates/">templates</a>, 
+      <a href="https://mindpalace.xyz/tags/themes/">themes</a>, 
+      <a href="https://mindpalace.xyz/tags/development/">development</a>
   </div>
   
 
@@ -490,7 +460,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="/layout/variables">variables</a> page.</p>
+<a href="https://mindpalace.xyz/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -504,7 +474,7 @@ page you are rendering. More details are available on the
 </h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="/layout/functions">Hugo template
+available functions with their own. <a href="https://mindpalace.xyz/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -659,7 +629,7 @@ you want to inside of your templates.</p>
   <a class="anchor" href="#using-content-page-parameters">#</a>
 </h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="https://mindpalace.xyz/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
@@ -777,7 +747,14 @@ so, such as in this example:</p>
     
   </main>
 
-  
+  <script
+  src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+  type="application/javascript"
+></script>
+<script type="application/javascript">
+littlefoot.default({buttonTemplate: "<button aria-controls='fncontent:<% id %>' aria-expanded='false' aria-label='Footnote <% number %>' class='littlefoot-footnote__button' id='<% reference %>' rel='footnote' title='See Footnote <% number %>' /><% number %></button>"
+}) 
+</script>
 </body>
 
 </html>

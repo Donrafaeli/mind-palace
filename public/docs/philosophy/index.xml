@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mind Palace</title>
+    <link>https://mindpalace.xyz/docs/philosophy/</link>
+    <description>Recent content on Mind Palace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mindpalace.xyz/docs/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boomerang ideas</title>
+      <link>https://mindpalace.xyz/docs/philosophy/boomerang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/philosophy/boomerang/</guid>
+      <description>Boomerang ideas#are, as you would think, ideas that you constantly return to, more accurately that return to you.
+For me, it&amp;rsquo;s just common patterns that reappear in my thoughts, often general in nature. As a heuristic, I use that reappearance to mean that my pattern recognition is noticing something interesting, and that they are therefore useful to think about. 1
+I use thinking time to mull over the ideas and see if they make sense intrinsically.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mindpalace.xyz/docs/philosophy/filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/philosophy/filter/</guid>
+      <description>The Filter#The objective world doesn&amp;rsquo;t exist. At least not as far as humans are concerned. After all, objectivity is an Ideal - a goal set beyond reach so that we may proverbially shoot for the stars and land on the moon.
+That does not mean that it is useless to aim for objectivity - quite the opposite. It just means that we have to stay open minded and doubtful, always.</description>
+    </item>
+    
+    <item>
+      <title>Pragmatism vs Buddhism</title>
+      <link>https://mindpalace.xyz/docs/philosophy/buddhism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/philosophy/buddhism/</guid>
+      <description>Pragmatism vs Buddhism#Religions and philosophical traditions seem to me like distributed computers trying to calculate the answer to the question of How to live a better life.
+Myself being interested in that subject, I often tackle its various facets with thinking tools - mental models picked up and culled throughout the years of mutual evolutionary combat.
+Desire and freedom#One of the thought-lines i often come back to is something I got from Alan Watts&#39; &amp;ldquo;The Wisdom of Insecurity&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Truth</title>
+      <link>https://mindpalace.xyz/docs/philosophy/truth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mindpalace.xyz/docs/philosophy/truth/</guid>
+      <description>Truth#Honestly, I can&amp;rsquo;t fucking believe I&amp;rsquo;m even attempting to write this.
+When drilling into deep ideas, most of my thought processes after a while usually hit bedrock. How do I know anything is True? How am I to think about ideas and communicate those thoughts if I don&amp;rsquo;t have a solid reference point. It seems like this is a subset of the question of how do I know if anything is real?</description>
+    </item>
+    
+  </channel>
+</rss>

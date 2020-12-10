@@ -5,7 +5,13 @@ BookToC: false
 weight: 9999
 ---
 ## About  
-This is a static site, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far, the experience has been like trying to make a hole in the wall using your forehead and actually succeeding. Feels pretty amazing in the end, but it makes my head hurt in the process.
+I am Rafael.  
+I'm still figuring out what this little space is for.  
+Let me explain what this IS, that's easy.
+
+&nbsp;
+
+This is a static website, built with Hugo and self-hosted. I wanted to have a crack at doing a full stack project from home with little prior knowledge and experience. So far, the experience has been like trying to make a hole in the wall using your forehead and actually succeeding. Feels pretty amazing in the end, but it makes my head hurt in the process.
 
 ## Making
 

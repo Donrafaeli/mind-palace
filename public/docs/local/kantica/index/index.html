@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Server#My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Backups#Backups are done locally, using Timeshift.
+Use this to make a new snapshot
+sudo timeshift --createUse this to list all snapshots
+sudo timeshift --listUse this to restore a snapshot">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Server#My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.
+This nice looking preview is from Screenfetch, a favourite of the linux ricing community.
+Backups#Backups are done locally, using Timeshift.
+Use this to make a new snapshot
+sudo timeshift --createUse this to list all snapshots
+sudo timeshift --listUse this to restore a snapshot" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mindpalace.xyz/docs/local/kantica/index/" />
+
+<title>Index | Mind Palace</title>
+<link rel="manifest" href="https://mindpalace.xyz/manifest.json">
+<link rel="icon" href="https://mindpalace.xyz/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://mindpalace.xyz/book.min.419b1d48d6606314537a2f66474127c0134407787fee538e96cf7069062e4b7a.css" integrity="sha256-QZsdSNZgYxRTei9mR0EnwBNEB3h/7lOOls9waQYuS3o=">
+<script defer src="https://mindpalace.xyz/en.search.min.72cfe54bbae6ed6cddff18cd1eadd5184ae78399aea39144c8f4b86906d9bc44.js" integrity="sha256-cs/lS7rm7Wzd/xjNHq3VGErng5muo5FEyPS4aQbZvEQ="></script>
+<!--
+Made with Hugo - custom theme based on Alex Shpak's Book theme.
+-->
+
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="https://mindpalace.xyz/"><span>Mind Palace</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1001ad9308b47a8d70ef4919fa96bde6" class="toggle"  />
+    <label for="section-1001ad9308b47a8d70ef4919fa96bde6" class="flex justify-between">
+      <a  class="">Life</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/how-to/" class="">How To</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/relationships/" class="">Relationships</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/control/" class="">Control and letting go</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/life/do-something/" class="">Do something</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5600a5abffd997d98055ae57ccaa113c" class="toggle"  />
+    <label for="section-5600a5abffd997d98055ae57ccaa113c" class="flex justify-between">
+      <a  class="">Philosophy</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/boomerang/" class="">Boomerang ideas</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/filter/" class="">Filter</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/buddhism/" class="">Pragmatism vs Buddhism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/philosophy/truth/" class="">Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/todo/" class="">Todo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/index/" class=" active">Index</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/misc/" class="">Misc</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/kantica/server/" class="">Server</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://mindpalace.xyz/docs/local/misc/ines-web/" class="">Ines Web</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://mindpalace.xyz/posts/" >
+        Thought bites
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://mindpalace.xyz/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Index</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://mindpalace.xyz/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css" integrity="sha384-ijEtygNrZDKunAWYDdV3wAZWvTHSrGhdUfImfngIba35nhQ03lSNgfTJAKaGFjk2" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#backups">Backups</a></li>
+    <li><a href="#heading"></a></li>
+    <li><a href="#realtime-data">Realtime data</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="server">
+  Server
+  <a class="anchor" href="#server">#</a>
+</h1>
+<p>My little server is called &ldquo;Kantica&rdquo; - it means &ldquo;little bucket&rdquo;. Below is an in-progress knowledgebase for running and mantaining it.</p>
+<p><img src="img/kantica.PNG" alt="Kantica screenfetch snip" /></p>
+<p>This nice looking preview is from <a href="https://github.com/KittyKatt/screenFetch">Screenfetch</a>, a favourite of the linux ricing community.</p>
+<h2 id="backups">
+  Backups
+  <a class="anchor" href="#backups">#</a>
+</h2>
+<p>Backups are done locally, using <a href="https://github.com/teejee2008/timeshift">Timeshift</a>.</p>
+<p>Use this to make a new snapshot</p>
+<pre><code>sudo timeshift --create
+</code></pre><p>Use this to list all snapshots</p>
+<pre><code>sudo timeshift --list
+</code></pre><p>Use this to restore a snapshot</p>
+<pre><code>timeshift --restore --snapshot &quot;2020-02-19_18-32-36&quot;
+</code></pre><h2 id="heading">
+  
+  <a class="anchor" href="#heading">#</a>
+</h2>
+<h2 id="realtime-data">
+  Realtime data
+  <a class="anchor" href="#realtime-data">#</a>
+</h2>
+<p>The server&rsquo;s performance data is collected using <a href="https://github.com/netdata/netdata">Netdata</a>.</p>
+<p>The data can be viewed on the local network on the address <a href="http://192.168.5.20:19999">IP:1999</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#backups">Backups</a></li>
+    <li><a href="#heading"></a></li>
+    <li><a href="#realtime-data">Realtime data</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  <script
+  src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+  type="application/javascript"
+></script>
+<script type="application/javascript">
+littlefoot.default({buttonTemplate: "<button aria-controls='fncontent:<% id %>' aria-expanded='false' aria-label='Footnote <% number %>' class='littlefoot-footnote__button' id='<% reference %>' rel='footnote' title='See Footnote <% number %>' /><% number %></button>"
+}) 
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

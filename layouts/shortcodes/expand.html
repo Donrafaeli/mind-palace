@@ -1,9 +1,0 @@
-<span class="expand">
-    <span class="expand-label" style="display: inline-block;cursor: pointer;background-color:var(--raf-green);padding: 6px 12px 6px 12px;margin-top: 20px; border-radius: 4px;" onclick="$h = $(this);$h.next('div').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('div').is(':visible') ? '{{.Get 2 | default `fas fa-arrow-circle-up`}}' : 'fas fa-{{.Get 1 | default `fas fa-arrow-circle-down`}}';});});">
-        {{.Get 0}} 
-        <i class="{{.Get 1 | default `fas fa-arrow-circle-down`}}"></i>
-    </span>
-    <div class="expand-content;" style="display: none;padding: 12px 0px 20px 0px">
-        {{.Inner | safeHTML}}
-    </div>
-</span>

@@ -8,10 +8,9 @@ weight: 99
 ### Blocking
 
 + fix the expand shortcode not switching between open and closed icons
-+ turn "thought bites" into short diary style idea entries
 + find a way to set minimum visible post length, or disable it completely
 + fix footonte symbol and text colors to fit dark theme
-+ implement images and see how they fit with the dark theme - small border?
++ implement images and see how they fit with the dark theme - small border? - caddy?
 
 ### Iteration
 
@@ -22,6 +21,8 @@ weight: 99
 + do actual favicons - optimize for speed- noobody's going to see this in a fricking app store
 
 ## Doing
+
++ turn "thought bites" into short diary style idea entries
 
 ## Done
 
