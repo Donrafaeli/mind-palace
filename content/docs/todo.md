@@ -7,9 +7,8 @@ weight: 99
 
 ### Blocking
 
-+ fix the expand shortcode not switching between open and closed icons
 + find a way to set minimum visible post length, or disable it completely
-+ fix footonte symbol and text colors to fit dark theme
++ fix footnote symbol and text colors to fit dark theme
 + implement images and see how they fit with the dark theme - small border? - caddy?
 
 ### Iteration
@@ -26,6 +25,7 @@ weight: 99
 
 ## Done
 
++ fix the expand shortcode not switching between open and closed icons
 + fix mobile layout of body text
 + fix fontawesome icons in the expand shortcode
 + fix incorrect MIME type error for FA library (possibly related to above)
