@@ -5,8 +5,8 @@ theme = "book"
 BookTheme = "dark"
 enableEmoji = "true"
 BookMenuBundle = '/menu'
-RelativeURLs = "false"
-CanonifyURLs = "true"
-[markup.goldmark.renderer]
-unsafe= true
+# RelativeURLs = "false"
+# CanonifyURLs = "true"
+# [markup.goldmark.renderer]
+# unsafe= true
 exclude = "./README.md"
