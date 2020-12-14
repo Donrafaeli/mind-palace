@@ -32,7 +32,7 @@ Terminus, despite being a dreaded Electron app, actually works quite nice for my
 
 ## Hardware 
 
-![test](/img/Test.jpg)
+![test](/img/Kantica.png)
 
 Kantica is a slightly pimped media PC from around 2011.
 
