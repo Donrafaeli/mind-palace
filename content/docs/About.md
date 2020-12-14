@@ -5,6 +5,7 @@ BookToC: false
 weight: 9999
 ---
 ## About  
+
 I am Rafael.  
 I'm still figuring out what this little space is for.  
 Let me explain what this IS, that's easy.
@@ -30,9 +31,7 @@ The site is served with Nginx, but I'm contemplating switching to Caddy. Hosting
 Terminus, despite being a dreaded Electron app, actually works quite nice for my needs. I do not spend my days in a CLI, so sub 50ms reaction time is not first on my priority list. I gladly trade  it for the simplest SSH UX around, lotsa customization and an oh so sweet see through window. I know i know, sue me. Also, apart from ideological reasons, I have no issue with my terminal eating 130MB of my RAM. Combine the thing with ohmyzsh and it's even better.
 
 ## Hardware  
-
-![Kantica screenfetch](/img/Kantica.png)  
-![test image](/img/Test.jpg)
+![test](img/test.jpg)
 
 Kantica is a slightly pimped media PC from around 2011.
 
