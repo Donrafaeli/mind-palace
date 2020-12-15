@@ -126,11 +126,12 @@
     tr td {
       padding: $padding-8 $padding-16;
       border: $padding-1 solid var(--gray-200);
+      text-align: left;
     }
 
-    tr:nth-child(2n) {
-      background: var(--gray-100);
-    }
+    //tr:nth-child(2n) {
+    //  background: var(--gray-100);
+    //}
   }
 
   hr {
