@@ -34,6 +34,7 @@ Terminus, despite being a dreaded Electron app, actually works quite nice for my
 
 ![test](/img/Kantica.png)
 
+![testis](https://mindpalace.xyz/img/Kantica.png)
 Kantica is a slightly pimped media PC from around 2011.
 
 CPU: Intel Pentium G850
