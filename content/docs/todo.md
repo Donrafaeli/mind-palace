@@ -8,7 +8,6 @@ weight: 99
 ### Blocking
 
 + find a way to set minimum visible post length, or disable it completely
-+ fix footnote symbol and text colors to fit dark theme
 + implement image theme and see how it fits with the dark theme - small border?
 + turn "thought bites" into short diary style idea entries
 
@@ -25,10 +24,9 @@ weight: 99
 
 ## Doing
 
-
-
 ## Done
 
++ fix footnote symbol and text colors to fit dark theme
 + working images (this should not have taken that long)
 + the expand shortcode not switching between open and closed icons
 + mobile layout of body text
