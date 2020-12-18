@@ -7,6 +7,7 @@ weight: 99
 
 ### Blocking
 
++ What's up with the image not changing in about section?
 + find a way to set minimum visible post length, or disable it completely
 + implement image theme and see how it fits with the dark theme - small border?
 + turn "thought bites" into short diary style idea entries
