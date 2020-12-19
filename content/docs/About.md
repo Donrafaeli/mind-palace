@@ -24,7 +24,7 @@ Terminus, despite being a dreaded Electron app, actually works quite nice for my
 
 ## Hardware
 
-![Kantica screenfetch](img/Kantica.PNG)
+![Kantica screenfetch](/img/Kantica.PNG)
 
 Component   | Model                    |
 ------------|--------------------------|
