@@ -4,7 +4,7 @@ type: docs
 BookToC: false
 ---
 
->Currently, the scaffolds are up, and the context and content are under construction. I&nbsp;expect at least 41 more productive hours in dev and 50 hours in writing before it's good to show to someone. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shoot me an email if you have any thoughts.
+>Currently, the scaffolds are up, and the context and content are under construction. I&nbsp;expect at least 21 more productive hours in dev and 49 hours in writing before it's good to show to someone. So if you somehow managed to stumble here before then - congrats, you are a smart little weasel. Feel free to shoot me an email if you have any thoughts.
 
 ## Mind Palace
 

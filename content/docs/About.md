@@ -24,6 +24,8 @@ Terminus, despite being a dreaded Electron app, actually works quite nice for my
 
 ## Hardware
 
+Kantica is a media PC from 2011. I got it cheap and upgraded it with a beefy SSD, nice PSU and a passive cooler. It's my baby and it still feels immensely cool to see it blinking under the desk, not making a single sound. And then SSHing in to do `fortune | cowsay` 10 times in a row.
+
 ![Kantica screenfetch](/img/Kantica.PNG)
 
 Component   | Model                    |
